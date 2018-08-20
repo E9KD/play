@@ -1,12 +1,16 @@
-前言
-> A Vue.js project
-实现功能
-搜索功能，包括搜索歌曲和歌手
-歌曲的播放，暂停功能
-切歌，歌曲的前进和后退
-歌词滚动，悬浮框歌词
-歌词颜色切换，顺序、逆序、随机播放
-滚动加载等（该功能只在搜索歌曲后的页面有效）
+#前言
+> 
+技术栈
+Vue+Vuex+Vue-resource+Vant+Scss
+##实现功能
+*搜索功能，包括搜索歌曲和歌手
+*歌曲的播放，暂停功能
+*歌曲单曲,列表播放
+*喜欢歌曲列表，添加删除
+
+##还未实现
+*歌曲播放历史
+*进度条
 ## Build Setup
 
 ``` bash
@@ -23,4 +27,11 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 部分效果图
+### 首页和播放页
+<img src = "./static/pic/homepage.png" />
+<img src = "./static/pic/playpage.png" />
+
+### 搜索功能和喜欢列表
+<img src = "./static/pic/search.gif" />
+<img src = "./static/pic/add.gif" />

@@ -8,7 +8,7 @@
       <van-icon  slot="right" class="playing icom"  @click="showPLaypage" />
   </van-nav-bar>
   <form action="/">
-    <van-search placeholder="请输入商品名称" class="qwe"  show-action  @cancel="onCancel" v-show="ishow"  v-model="keyword" @focus="getFocus" />
+    <van-search placeholder="搜索喜欢的歌曲..." class="qwe"  show-action  @cancel="onCancel" v-show="ishow"  v-model="keyword" @focus="getFocus" />
   </form>
     <div class="researchbox" v-show="isresearch">
       <ul class="songul">
