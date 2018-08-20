@@ -1,5 +1,5 @@
-#前言
-> 
+
+#
 技术栈
 Vue+Vuex+Vue-resource+Vant+Scss
 ##实现功能
@@ -29,9 +29,7 @@ npm run build --report
 
 ## 部分效果图
 ### 首页和播放页
-<img src = "./static/pic/homepage.png" />
-<img src = "./static/pic/playpage.png" />
+<img src = "./static/pic/homepage.png" /><img src = "./static/pic/playpage.png" />
 
 ### 搜索功能和喜欢列表
-<img src = "./static/pic/search.gif" />
-<img src = "./static/pic/add.gif" />
+<img src = "./static/pic/search.gif" /><img src = "./static/pic/add.gif" />
